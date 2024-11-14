@@ -1,0 +1,47 @@
+/* 页面基本样式 */
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+  }
+  
+  canvas {
+    background: #eee;
+    margin: 0 auto;
+    display: block;
+    border: 2px solid #0095DD;
+    border-radius: 10px;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ddd;
+    transform: scale(1.1);
+  }
+  
+  #runButton {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  #speedUpButton {
+    background-color: #ff5722;
+    color: white;
+  }
+  
+  #slowDownButton {
+    background-color: #2196F3;
+    color: white;
+  }
+  
